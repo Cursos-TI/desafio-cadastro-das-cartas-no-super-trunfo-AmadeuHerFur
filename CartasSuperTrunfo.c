@@ -6,15 +6,18 @@
 // Siga os comentários para implementar cada parte do desafio.
 //Teste Amadeu Furtado
 
+#include <stdio.h>
 int main() {
-    1. Estado (char)
-    2. Código da Carta (char[]) 
-    3. Nome da Cidade (char[])
-    4. População (int)
-    5. Área em KM² (float)
-    6. PIB (float)
-    7. Número de Pontos Turísticos (int)
 
+   printf("1. Estado" (char))
+   printf("2. Código da Carta" (char[]))
+   printf("3. Nome da Cidade" (char[]))
+   printf("4. População" (int))
+   printf("5. Área em KM²" (float))
+   printf("6. PIB" (float))
+   printf("7. Número de Pontos Turísticos" (int)))
+  return 0;
+}
 
 
     // Sugestão: Defina variáveis separadas para cada atributo da cidade.
@@ -28,5 +31,4 @@ int main() {
     // Sugestão: Utilize a função printf para exibir as informações das cartas cadastradas de forma clara e organizada.
     // Exiba os valores inseridos para cada atributo da cidade, um por linha.
 
-    return 0;
-}
+  
