@@ -14,20 +14,42 @@ int main() {
    printf("Informações referentes ao estado A\n");
    printf("Código da Carta: A01")
    printf("Informe uma cidade para esta Carta\n");
-   scanf(%s , &cidade1);
+   scanf("%s" , &cidade1);
    printf("Informe o valor para a População\n");
-   scanf(%d , &populacao1);
+   scanf("%d" , &populacao1);
    printf("Informe o valor para a Área\n");
-   scanf(%f , &area1);
+   scanf("%f" , &area1);
    printf("Informe o valor para o PIB\n");
-   scanf(%f , &pib1);
+   scanf("%f" , &pib1);
    printf("Informe o valor para o Número de Pontos Turísticos1\n");
-   scanf (%d , &ponto1);
+   scanf ("%d" , &ponto1);
 
+//Após a coleta de dados serão exibidos os valores infromado que comporão a carta 1
+
+   printf("A primeira carta terá os seguintes valores:",\n);
+   printf("Código da Carta: A01 %s\n");
+   printf("Cidade: %s\n", cidade1);
+   printf("População: %d\n", populacao1);
+   printf("Área: %f\n", area1);
+   printf("PIB: %f\n", pib1);
+   printf("Pontos Turísticos: %d\n" , ponto1);
+
+//Nesse segundo momento acontecerá a captura dos dados para a segunda carta
    
-
-
-
+   printf("Informações referentes ao estado B\n");
+   printf("Código da Carta: B02")
+   printf("Informe uma cidade para esta Carta\n");
+   scanf(%s , &cidade2);
+   printf("Informe o valor para a População\n");
+   scanf(%d , &populacao2);
+   printf("Informe o valor para a Área\n");
+   scanf(%f , &area2);
+   printf("Informe o valor para o PIB\n");
+   scanf(%f , &pib2);
+   printf("Informe o valor para o Número de Pontos Turísticos1\n");
+   scanf (%d , &ponto2);
+ 
+   
    char Estado = 'A'
    char Codigo = 'A01'
    char Cidade = 'Fortaleza'
