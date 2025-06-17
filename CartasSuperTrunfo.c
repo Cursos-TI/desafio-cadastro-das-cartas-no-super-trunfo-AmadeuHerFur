@@ -24,10 +24,10 @@ int main() {
    scanf("%f" , &pib1);
    printf("Informe o valor para o Número de Pontos Turísticos1\n");
    scanf ("%d" , &ponto1);
-
-   float densidade1 = (float) populacao1 / area1;
-   floar capita1 = (float) pib1 / populacao1;
    
+   float densidade1 = (float) populacao1 / area1;
+   float capita1 = (float) pib1 / populacao1;
+   float poder1 = (float) 1/densidade1 + populacao1 + area1+ pib1 + ponto1 + capita1 
 //Após a coleta de dados serão exibidos os valores infromado que comporão a carta 1
 
    printf("A primeira carta terá os seguintes valores:\n");
@@ -38,8 +38,9 @@ int main() {
    printf("PIB: %f\n", pib1);
    printf("Pontos Turísticos: %d\n" , ponto1);
 
-   printf("Densidade Populacional: %f\n" , densidade1); // fazer o calculo da densidade
-   printf("PIB per Capita: %f\n" , capita1); // fazer o calculo do per capita
+   printf("Densidade Populacional: %f\n" , densidade1); 
+   printf("PIB per Capita: %f\n" , capita1);
+   printf("Superpoder: %f\n", poder1);
 
 //Nesse segundo momento acontecerá a captura dos dados para a segunda carta
    
@@ -56,8 +57,12 @@ int main() {
    scanf(%f , &pib2);
    printf("Informe o valor para o Número de Pontos Turísticos1\n");
    scanf (%d , &ponto2);
- 
-//Após a coleta de dados serão exibidos os valores infromado que comporão a carta 2
+
+   float densidade2 = (float) populacao2 / area2;
+   float capita2 = (float) pib2 / populacao2;
+   float poder2 = (float) 1/densidade2 + populacao2 + area2+ pib2 + ponto2 + capita2 
+   
+//Após a coleta de dados serão exibidos os valores informados que comporão a carta 2
 
    printf("A segunda carta terá os seguintes valores:",\n);
    printf("Código da Carta: %s\n" , codigo2); 
@@ -67,13 +72,15 @@ int main() {
    printf("PIB: %f\n", pib2);
    printf("Pontos Turísticos: %d\n" , ponto2);   
 
-   printf("Densidade Populacional: %d\n" , densidade2); // fazer o calculo da densidade
-   printf("PIB per Capita: %d\n" , capita2); // fazer o calculo do per capita
+   printf("Densidade Populacional: %d\n" , densidade2);
+   printf("PIB per Capita: %d\n" , capita2); 
+   printf("Superpoder: %f\n", poder2);
+   
+//Nível Intermediário: Os dados referentes à Densidade Populacional e PIB per Capita serão inseridos na porção superior/iniciante do código para fins de melhor organização   
+//Nível Mestre: Os dado referente ao superpoder serão inseridos na porção superior/iniciante do código para fins de melhor organização
+// Nível Mestre: A comparação de cartas será feita abaixo
 
    
-//Aqui se encerra o Desafio Iniciante e se inicia o Desafio Intermediário
-//Os dados referentes à Desnsidade Populacional e PIB per Capita serão inseridos na porção superior/iniciante do código para fins de melhor organização   
-
    
    
   return 0;
