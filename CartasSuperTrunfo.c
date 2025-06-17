@@ -7,15 +7,26 @@
 //Teste Amadeu Furtado
 
 #include <stdio.h>
-int main() {
+//A primeira parte deve declarar as variáveis utilizadas para cada carta
+//Primeiro o código deve ser escrito para a primeira carta
 
-   printf("1. Estado" (char))
-   printf("2. Código da Carta" (char[]))
-   printf("3. Nome da Cidade" (char[]))
-   printf("4. População" (int))
-   printf("5. Área em KM²" (float))
-   printf("6. PIB" (float))
-   printf("7. Número de Pontos Turísticos" (int)))
+int main() {
+   char Estado = A
+   char Codigo = A01
+   char Cidade = Fortaleza
+   int Populacao = 2428678
+   float Area = 313,8
+   float PIB = 73,4
+   int Pontos = 
+
+   
+   printf("1. Estado", Estado)
+   printf("2. Código da Carta", Codigo)
+   printf("3. Nome da Cidade", Cidade)
+   printf("4. População", Populacao)
+   printf("5. Área em KM²", Area)
+   printf("6. PIB", PIB)
+   printf("7. Número de Pontos Turísticos", Pontos)
   return 0;
 }
 
