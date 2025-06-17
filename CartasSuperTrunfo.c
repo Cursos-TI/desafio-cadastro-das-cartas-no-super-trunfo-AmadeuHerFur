@@ -25,6 +25,9 @@ int main() {
    printf("Informe o valor para o Número de Pontos Turísticos1\n");
    scanf ("%d" , &ponto1);
 
+   float densidade1 = (float) populacao1 / area1;
+   floar capita1 = (float) pib1 / populacao1;
+   
 //Após a coleta de dados serão exibidos os valores infromado que comporão a carta 1
 
    printf("A primeira carta terá os seguintes valores:\n");
@@ -34,6 +37,9 @@ int main() {
    printf("Área: %f\n", area1);
    printf("PIB: %f\n", pib1);
    printf("Pontos Turísticos: %d\n" , ponto1);
+
+   printf("Densidade Populacional: %f\n" , densidade1); // fazer o calculo da densidade
+   printf("PIB per Capita: %f\n" , capita1); // fazer o calculo do per capita
 
 //Nesse segundo momento acontecerá a captura dos dados para a segunda carta
    
@@ -60,6 +66,15 @@ int main() {
    printf("Área: %f\n", area2);
    printf("PIB: %f\n", pib2);
    printf("Pontos Turísticos: %d\n" , ponto2);   
+
+   printf("Densidade Populacional: %d\n" , densidade2); // fazer o calculo da densidade
+   printf("PIB per Capita: %d\n" , capita2); // fazer o calculo do per capita
+
+   
+//Aqui se encerra o Desafio Iniciante e se inicia o Desafio Intermediário
+//Os dados referentes à Desnsidade Populacional e PIB per Capita serão inseridos na porção superior/iniciante do código para fins de melhor organização   
+
+   
    
   return 0;
 }
