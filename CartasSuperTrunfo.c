@@ -7,12 +7,27 @@
 //Teste Amadeu Furtado
 
 #include <stdio.h>
-//A primeira parte deve declarar as variáveis utilizadas para cada carta
-
-//Primeiro o código deve ser escrito para a primeira carta
-//Serão inseridos dados para a a cidade Fortaleza no Ceará
+//Primeiro o código deve receber os valores para a primeira carta
+//Será apresentado o pedido dos dados e posterior coleta, um a um
 
 int main() {
+   printf("Informações referentes ao estado A\n");
+   printf("Código da Carta: A01")
+   printf("Informe uma cidade para esta Carta\n");
+   scanf(%s , &cidade1);
+   printf("Informe o valor para a População\n");
+   scanf(%d , &populacao1);
+   printf("Informe o valor para a Área\n");
+   scanf(%f , &area1);
+   printf("Informe o valor para o PIB\n");
+   scanf(%f , &pib1);
+   printf("Informe o valor para o Número de Pontos Turísticos1\n");
+   scanf (%d , &ponto1);
+
+   
+
+
+
    char Estado = 'A'
    char Codigo = 'A01'
    char Cidade = 'Fortaleza'
@@ -29,26 +44,7 @@ int main() {
    printf("6. PIB: %f Bilhões\n", PIB)
    printf("7. Número de Pontos Turísticos %d\n", Pontos)
 
-// Nessa segunda parte do código serão inseridos os dados da segunda carta
-// O código em si será o mesmo, modificano-se apenas os dados para a segunda carta      
-//Serão inseridos dados para a a cidade Rio de Janeiro no Rio de Janeiro
 
-   char Estado = 'B'
-   char Codigo = 'B01'
-   char Cidade = 'Rio de Janeiro'
-   int Populacao = 2428678
-   float Area = 1255.3
-   float PIB = 359.64
-   int Pontos = 20
-
-   printf("1. Estado: %c\n", Estado)
-   printf("2. Código da Carta: %s\n", Codigo)
-   printf("3. Nome da Cidade: %s\n", Cidade)
-   printf("4. População: %d Milhões\n", Populacao)
-   printf("5. Área: %f KM²\n", Area)
-   printf("6. PIB: %f Bilhões\n", PIB)
-   printf("7. Número de Pontos Turísticos %d\n", Pontos)
-      
   return 0;
 }
 
