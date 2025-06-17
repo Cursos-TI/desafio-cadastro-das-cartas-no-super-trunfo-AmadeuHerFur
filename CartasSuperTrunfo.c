@@ -17,17 +17,38 @@ int main() {
    char Codigo = 'A01'
    char Cidade = 'Fortaleza'
    int Populacao = 2428678
-   float Area = 313,8
-   float PIB = 73,4
+   float Area = 313.8
+   float PIB = 73.4
    int Pontos = 15
 
-   printf("1. Estado: \n", Estado)
-   printf("2. Código da Carta:\n", Codigo)
-   printf("3. Nome da Cidade:\n", Cidade)
-   printf("4. População: \n", Populacao)
-   printf("5. Área em KM²: \n", Area)
-   printf("6. PIB em Bilhões:\n", PIB)
-   printf("7. Número de Pontos Turísticos\n", Pontos)
+   printf("1. Estado: %c\n", Estado)
+   printf("2. Código da Carta: %s\n", Codigo)
+   printf("3. Nome da Cidade: %s\n", Cidade)
+   printf("4. População: %d Milhões\n", Populacao)
+   printf("5. Área: %f KM²\n", Area)
+   printf("6. PIB: %f Bilhões\n", PIB)
+   printf("7. Número de Pontos Turísticos %d\n", Pontos)
+
+// Nessa segunda parte do código serão inseridos os dados da segunda carta
+// O código em si será o mesmo, modificano-se apenas os dados para a segunda carta      
+//Serão inseridos dados para a a cidade Rio de Janeiro no Rio de Janeiro
+
+   char Estado = 'B'
+   char Codigo = 'B01'
+   char Cidade = 'Rio de Janeiro'
+   int Populacao = 2428678
+   float Area = 1255.3
+   float PIB = 359.64
+   int Pontos = 20
+
+   printf("1. Estado: %c\n", Estado)
+   printf("2. Código da Carta: %s\n", Codigo)
+   printf("3. Nome da Cidade: %s\n", Cidade)
+   printf("4. População: %d Milhões\n", Populacao)
+   printf("5. Área: %f KM²\n", Area)
+   printf("6. PIB: %f Bilhões\n", PIB)
+   printf("7. Número de Pontos Turísticos %d\n", Pontos)
+      
   return 0;
 }
 
