@@ -12,7 +12,8 @@
 
 int main() {
    printf("Informações referentes ao estado A\n");
-   printf("Código da Carta: A01")
+   printf("Informe o Código para a primeira carta:\n");
+   scanf("%s" , &codigo1); 
    printf("Informe uma cidade para esta Carta\n");
    scanf("%s" , &cidade1);
    printf("Informe o valor para a População\n");
@@ -26,8 +27,8 @@ int main() {
 
 //Após a coleta de dados serão exibidos os valores infromado que comporão a carta 1
 
-   printf("A primeira carta terá os seguintes valores:",\n);
-   printf("Código da Carta: A01 %s\n");
+   printf("A primeira carta terá os seguintes valores:\n");
+   printf("Código da Carta: %s\n" , codigo1 );
    printf("Cidade: %s\n", cidade1);
    printf("População: %d\n", populacao1);
    printf("Área: %f\n", area1);
@@ -37,7 +38,8 @@ int main() {
 //Nesse segundo momento acontecerá a captura dos dados para a segunda carta
    
    printf("Informações referentes ao estado B\n");
-   printf("Código da Carta: B02")
+   printf("Informe o Código a segunda carta:\n");
+   scanf("%s" , &codigo2);
    printf("Informe uma cidade para esta Carta\n");
    scanf(%s , &cidade2);
    printf("Informe o valor para a População\n");
@@ -49,24 +51,16 @@ int main() {
    printf("Informe o valor para o Número de Pontos Turísticos1\n");
    scanf (%d , &ponto2);
  
+//Após a coleta de dados serão exibidos os valores infromado que comporão a carta 2
+
+   printf("A segunda carta terá os seguintes valores:",\n);
+   printf("Código da Carta: %s\n" , codigo2); 
+   printf("Cidade: %s\n", cidade2);
+   printf("População: %d\n", populacao2);
+   printf("Área: %f\n", area2);
+   printf("PIB: %f\n", pib2);
+   printf("Pontos Turísticos: %d\n" , ponto2);   
    
-   char Estado = 'A'
-   char Codigo = 'A01'
-   char Cidade = 'Fortaleza'
-   int Populacao = 2428678
-   float Area = 313.8
-   float PIB = 73.4
-   int Pontos = 15
-
-   printf("1. Estado: %c\n", Estado)
-   printf("2. Código da Carta: %s\n", Codigo)
-   printf("3. Nome da Cidade: %s\n", Cidade)
-   printf("4. População: %d Milhões\n", Populacao)
-   printf("5. Área: %f KM²\n", Area)
-   printf("6. PIB: %f Bilhões\n", PIB)
-   printf("7. Número de Pontos Turísticos %d\n", Pontos)
-
-
   return 0;
 }
 
