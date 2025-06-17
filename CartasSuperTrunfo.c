@@ -78,11 +78,17 @@ int main() {
    
 //Nível Intermediário: Os dados referentes à Densidade Populacional e PIB per Capita serão inseridos na porção superior/iniciante do código para fins de melhor organização   
 //Nível Mestre: Os dado referente ao superpoder serão inseridos na porção superior/iniciante do código para fins de melhor organização
-// Nível Mestre: A comparação de cartas será feita abaixo
+//Nível Mestre: A comparação de cartas será feita abaixo
 
    
-   
-   
+   printf("Resultado da População : % \n" , populacao1 > populacao2 )   
+   printf("Resultado da Área: % \n" , area1 > area2 ) 
+   printf("Resultado do PIB: % \n" , pib1 > pib2 ) 
+   printf("Resultado dos Pontos Turísticos:  % \n" , ponto1 > ponto2 ) 
+   printf("Resultado da Desnidade Demográfica: % \n" , densidade1 > densidade2 ) 
+   printf("Resultado do PIB per Capita: % \n" , capita1 > capita2 ) 
+   printf("Resultado do Superpoder: % \n" , poder1 > poder2 ) 
+      
   return 0;
 }
 
